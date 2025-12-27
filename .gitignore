@@ -1,0 +1,95 @@
+# =================================
+# iGEM 静态网站项目 .gitignore
+# =================================
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# 编辑器/IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Visual Studio Code 用户设置
+.settings/
+*.code-workspace
+
+# 操作系统临时文件
+*.tmp
+*.temp
+~$*
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 依赖包目录
+node_modules/
+
+# 构建输出文件
+dist/
+build/
+out/
+*.min.css
+*.min.js
+*.map
+
+# 本地开发配置（包含敏感信息）
+config.local.*
+*.local.*
+secrets.*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 用户特定文件（不共享）
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 设计源文件（通常较大）
+*.psd
+*.ai
+*.sketch
+*.xd
+*.fig
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 图片处理中间文件
+*.webp.temp
+*.jpg.temp
+
+# 本地测试文件
+test.html
+debug.html
+sandbox/
+
+# 上传临时文件
+uploads/
+tmp/
+
+# =================================
+# 你的项目特定配置
+# =================================
+# 如果你有本地开发服务器配置，可以添加：
+# local-server-config.json
+# dev-settings.ini
+
+# 如果你使用预处理器，可以添加：
+# *.less
+# *.scss
+# *.sass
